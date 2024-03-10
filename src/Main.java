@@ -26,8 +26,11 @@ public class Main {
                 " Максимальная сумма трат за неделю составила " + max + " рублей");
 
         System.out.println("Task 3");
+        int average = sum / array.length;
+        System.out.println("Средняя сумма трат за месяц составила "+ average +" рублей");
 
-
+        System.out.println("Task 4");
+        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
     }
 
 }
